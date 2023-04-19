@@ -1,15 +1,18 @@
 body {
-  background-color: #fdf4f5;
+  background-color: #a299ce;
 }
 .container {
-  text-align: center;
-  background-color: #ba90c6;
-  color: black;
-  margin: 0 auto;
   max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  color: black;
+  text-align: center;
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  padding-top: 20px;
 }
