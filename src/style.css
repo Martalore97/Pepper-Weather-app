@@ -16,6 +16,7 @@ body {
   text-align: right;
   font-size: 24px;
   text-align: left;
+  margin-bottom: 20px;
 }
 ul {
   list-style: none;
@@ -28,6 +29,7 @@ footer {
   text-align: center;
   color: #7a739f;
 }
-.tornado {
+.float-left {
   width: 100px;
+  margin-top: 20px;
 }
