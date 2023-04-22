@@ -40,3 +40,6 @@ strong {
   position: relative;
   top: -36px;
 }
+#description {
+  text-transform: capitalize;
+}
