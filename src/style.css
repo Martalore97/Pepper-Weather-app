@@ -30,6 +30,10 @@ footer {
   color: #7a739f;
 }
 .float-left {
-  width: 100px;
+  width: 150px;
   margin-top: 20px;
+}
+strong {
+  font-size: 64px;
+  position: relative;
 }
