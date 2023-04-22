@@ -35,5 +35,8 @@ footer {
 }
 strong {
   font-size: 64px;
+}
+.units {
   position: relative;
+  top: -36px;
 }
