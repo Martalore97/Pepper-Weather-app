@@ -48,11 +48,13 @@ function search(city) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
-function handleSumit(event) {
+function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
-  console.log(cityInputElement.value);
+  search(cityInputElement.value);
 }
 
+search("New York");
+
 let form = document.querySelector("#search-form");
-form.addEventListener("submit", handleSumit);
+form.addEventListener("submit", handleSubmit);
