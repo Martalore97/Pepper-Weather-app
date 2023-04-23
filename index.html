@@ -17,12 +17,17 @@
   <body>
     <div class="container">
       <div class="weather-presentation">
+        <form id="search-form"></form>
+        <input
+          type="search"
+          placeholder="Type a city..."
+          class="form-control"
+        />
         <h1 id="city"></h1>
         <h2>Last updated: <span id="date"></span></h2>
         <h2 id="description"></h2>
       </div>
-      <form id="search-form"></form>
-      <input type="search" placeholder="Type a city..." />
+
       <div class="row">
         <div class="clearfix">
           <img
