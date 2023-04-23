@@ -18,7 +18,7 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[date.getDay()];
-  return `${date} ${hours} : ${minutes}`;
+  return `${day} ${hours}:${minutes}`;
 }
 
 function displayTemperature(response) {
@@ -44,8 +44,8 @@ function displayTemperature(response) {
 
 function search(event) {
   event.preventDefault();
-  let cityInputElement = document.querySelector("#cityInput");
-  console.log(cityInputElement);
+  let cityInputElement = document.querySelector("#city-input");
+  console.log(cityInputElement.value);
 }
 
 let apiKey = "13200fbdb70fed1828854131da54a9df";
