@@ -43,3 +43,11 @@ strong {
 #description {
   text-transform: capitalize;
 }
+.clearfix .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+.clearfix .active:hover {
+  text-decoration: none;
+}
